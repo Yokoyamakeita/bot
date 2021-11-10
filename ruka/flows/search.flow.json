@@ -1,0 +1,67 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "eae068f93a",
+      "name": "entry",
+      "onEnter": [
+        "buildQueryString {\"name\":\"\",\"value\":\"\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "CallAPI-403d4f"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-403d4f",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "CallAPI-403d4f",
+      "flow": "skills/CallAPI-403d4f.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "search-success"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "search-failure"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "0ba114ee60",
+      "name": "search-success",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-zM4txj",
+        "say #!builtin_text-kanfIf",
+        "say #!builtin_single-choice-OLL4_q"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "68998542f9",
+      "name": "search-failure",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-mNsF3s",
+        "say #!builtin_single-choice-OLL4_q"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+body{
+    margin:30px;
+    background: #fffffa;
+    color:#554;
+    font-family: cursive; 
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info{
+    width: 50ch;
+}
+
+.phone >div{
+    width: 160px;
+    height: 320px;
+    margin:20px 70px;
+    padding:20px;
+    border-radius:10px;
+    border:5px solid #b0b0b0;
+    background: #a0a0a0;
+}
+

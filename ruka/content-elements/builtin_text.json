@@ -1,0 +1,272 @@
+[
+  {
+    "id": "builtin_text-gi0wTc",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "こんにちは！お客様係のルカです♡",
+      "text$ja": "こんにちは！お客様係のルカです♡",
+      "markdown$ja": true,
+      "typing$ja": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T13:03:46.060Z",
+    "modifiedOn": "2021-11-08T13:12:53.535Z"
+  },
+  {
+    "id": "builtin_text---hm1U",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "私はお客様の商品選びについてサポートします！",
+      "text$ja": "私はお客様の商品選びについてサポートします！",
+      "markdown$ja": true,
+      "typing$ja": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T13:04:27.929Z",
+    "modifiedOn": "2021-11-08T13:12:53.636Z"
+  },
+  {
+    "id": "builtin_text-iW-jnq",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "いまご覧いただいている商品「iPhone21」についてのご質問ですね！"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T13:55:57.282Z",
+    "modifiedOn": "2021-11-08T13:55:57.282Z"
+  },
+  {
+    "id": "builtin_text-7Vx3bd",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "他にご質問はございますか?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T13:58:52.002Z",
+    "modifiedOn": "2021-11-08T14:39:21.692Z"
+  },
+  {
+    "id": "builtin_text-XIhM6l",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "商品をお探しですね。価格帯を教えていただければお探しします。"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T13:59:52.824Z",
+    "modifiedOn": "2021-11-08T13:59:52.824Z"
+  },
+  {
+    "id": "builtin_text-0WyLer",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "以下の商品が見つかりました。\n「iPhone21 128GB モデル」\n「iPhone21 256GB モデル」"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T14:07:13.327Z",
+    "modifiedOn": "2021-11-08T14:07:13.327Z"
+  },
+  {
+    "id": "builtin_text-kanfIf",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "もう一度お探ししますか?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T14:07:38.207Z",
+    "modifiedOn": "2021-11-08T14:07:38.207Z"
+  },
+  {
+    "id": "builtin_text-LWWitH",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "申し訳ございません。。私が出来るのはお客様の商品選びのサポートに限られております。"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T14:08:56.936Z",
+    "modifiedOn": "2021-11-08T14:08:56.936Z"
+  },
+  {
+    "id": "builtin_text-eKw5sz",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "かしこまりました！"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T14:11:11.662Z",
+    "modifiedOn": "2021-11-08T14:11:11.662Z"
+  },
+  {
+    "id": "builtin_text-wpTOVB",
+    "formData": {
+      "text$ja": "今ご覧いただいている「{{user.webContext.thisProduct.name}}」についてのご質問ですね",
+      "markdown$ja": true,
+      "typing$ja": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T14:16:43.005Z",
+    "modifiedOn": "2021-11-09T03:03:54.355Z"
+  },
+  {
+    "id": "builtin_text-zM4txj",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": false,
+      "text$ja": "{{#temp.response.body.length}}以下の商品が見つかりました。{{/temp.response.body.length}}\n{{#temp.response.body}}\n* [{{name}}](http://example.com/{{sku_id}}) {{price}}円 {{#stock}}在庫あり（残り{{stock}}個）{{/stock}}{{^stock}}在庫なし{{/stock}}\n{{/temp.response.body}}\n{{^temp.response.body}}申し訳有りません。ご所望の条件の商品は見つかりませんでした。{{/temp.response.body}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T13:22:45.594Z",
+    "modifiedOn": "2021-11-09T13:22:45.594Z"
+  },
+  {
+    "id": "builtin_text-mNsF3s",
+    "formData": {
+      "text$ja": "申し訳ありません。システムエラーのため商品をお探しすることができません。しばらくたってからもう一度お探しください。",
+      "markdown$ja": false,
+      "typing$ja": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T13:28:16.857Z",
+    "modifiedOn": "2021-11-09T13:28:52.944Z"
+  },
+  {
+    "id": "builtin_text-2F_pxP",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "恐れ入りますが、担当の者から追ってご回答させてください"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:01:39.940Z",
+    "modifiedOn": "2021-11-09T14:01:39.940Z"
+  },
+  {
+    "id": "builtin_text-794DRh",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "ありがとうございます。"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:01:53.125Z",
+    "modifiedOn": "2021-11-09T14:01:53.125Z"
+  },
+  {
+    "id": "builtin_text-iqLmjA",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "「やめる」と入力すると、いつでも手続きを中止できます。"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:03:56.437Z",
+    "modifiedOn": "2021-11-09T14:03:56.437Z"
+  },
+  {
+    "id": "builtin_text-mhQBsN",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "それでは電話番号を伺います"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:05:33.941Z",
+    "modifiedOn": "2021-11-09T14:05:33.941Z"
+  },
+  {
+    "id": "builtin_text-KJy-o9",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "それではメールアドレスを伺います"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:05:52.016Z",
+    "modifiedOn": "2021-11-09T14:05:52.016Z"
+  },
+  {
+    "id": "builtin_text-35vVdc",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "お客様を何とお呼びしましょうか?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:06:16.676Z",
+    "modifiedOn": "2021-11-09T14:06:16.676Z"
+  },
+  {
+    "id": "builtin_text-AoXvTc",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "{{user.nickname}}さま、ですね。"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:09:01.712Z",
+    "modifiedOn": "2021-11-09T14:09:01.712Z"
+  },
+  {
+    "id": "builtin_text-Cn_H3B",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "それでは{{user.nickname}}さま、後日改めてご連絡させてください"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:09:44.881Z",
+    "modifiedOn": "2021-11-09T14:09:44.881Z"
+  },
+  {
+    "id": "builtin_text-JeDqZy",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "お問い合わせを承りました。"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:10:10.923Z",
+    "modifiedOn": "2021-11-09T14:10:10.923Z"
+  },
+  {
+    "id": "builtin_text-IAWJnq",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "手続きを中断します。"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:10:33.633Z",
+    "modifiedOn": "2021-11-09T14:10:33.633Z"
+  },
+  {
+    "id": "builtin_text-ynUUfL",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "大変申し訳ございません。システムエラーのためお問い合わせを受けることができませんでした。"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:11:58.349Z",
+    "modifiedOn": "2021-11-09T14:11:58.349Z"
+  },
+  {
+    "id": "builtin_text-V50R6V",
+    "formData": {
+      "markdown$ja": true,
+      "typing$ja": true,
+      "text$ja": "しばらく時間を空けてお問い合わせください。"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:12:25.628Z",
+    "modifiedOn": "2021-11-09T14:12:25.628Z"
+  }
+]

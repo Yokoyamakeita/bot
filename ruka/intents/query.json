@@ -1,0 +1,33 @@
+{
+  "name": "query",
+  "utterances": {
+    "ja": [
+      "[3万](upper)円以下のある?",
+      "[3万](lower)円以上のが見たい",
+      "[5万](upper)円より安いスマホを教えて",
+      "[3万](lower)円以上かつ[5万](upper)円未満のを検索",
+      "[3万](lower)円から[5万](upper)円までで探しています"
+    ]
+  },
+  "slots": [
+    {
+      "id": "u1uiLIT0epa43gnA7pFZg",
+      "name": "lower",
+      "entities": [
+        "number"
+      ],
+      "color": 1
+    },
+    {
+      "id": "VfRVRyWWxmc1xSSOt82bF",
+      "name": "upper",
+      "entities": [
+        "number"
+      ],
+      "color": 2
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "__qna__5ai2vyk962_",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "ja": [
+      "これいくら?",
+      "価格は?",
+      "値段は?",
+      "何円?",
+      "これなんぼ?"
+    ]
+  },
+  "slots": []
+}

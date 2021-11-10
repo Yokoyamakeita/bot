@@ -1,0 +1,213 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "a549f65e40",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-2F_pxP"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-begin"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "34c7312014",
+      "name": "node-c480",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-channel"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-794DRh",
+        "say #!builtin_text-iqLmjA",
+        "makeChatlog {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-59ca2a",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-begin",
+      "flow": "skills/choice-59ca2a.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "temp['skill-choice-ret-zg479lwdw6'] == \"yes\"",
+          "node": "node-c480"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "temp['skill-choice-ret-zg479lwdw6'] == \"no\"",
+          "node": "node-d321"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-a3ad01",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-channel",
+      "flow": "skills/choice-a3ad01.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Phone]",
+          "condition": "temp['skill-choice-ret-12rqt2m4c1'] == \"Phone\"",
+          "node": "node-9a34"
+        },
+        {
+          "caption": "User picked [email]",
+          "condition": "temp['skill-choice-ret-12rqt2m4c1'] == \"email\"",
+          "node": "node-bc89"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "75025aad28",
+      "name": "node-9a34",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-2f59"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-eKw5sz",
+        "say #!builtin_text-mhQBsN"
+      ],
+      "onReceive": [
+        "say #!builtin_text-794DRh",
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"telno\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "6f2ae0fc33",
+      "name": "node-bc89",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-2f59"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-eKw5sz",
+        "say #!builtin_text-KJy-o9"
+      ],
+      "onReceive": [
+        "say #!builtin_text-794DRh",
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"email\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4439e5b93a",
+      "name": "node-d321",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-eKw5sz",
+        "say #!builtin_text-IAWJnq"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f05bcaaf49",
+      "name": "node-2f59",
+      "next": [
+        {
+          "condition": "true",
+          "node": "CallAPI-05c9f2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-35vVdc"
+      ],
+      "onReceive": [
+        "say #!builtin_text-794DRh",
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"nickname\",\"value\":\"{{event.preview}}\"}",
+        "say #!builtin_text-AoXvTc"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "1aafc1d4b2",
+      "name": "node-3f04",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-JeDqZy",
+        "say #!builtin_text-Cn_H3B"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-05c9f2",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "CallAPI-05c9f2",
+      "flow": "skills/CallAPI-05c9f2.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "node-3f04"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "node-9cff"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "3d910304ba",
+      "name": "node-9cff",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ynUUfL",
+        "say #!builtin_text-V50R6V"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

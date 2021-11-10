@@ -1,0 +1,220 @@
+[
+  {
+    "id": "builtin_single-choice-K54Do9",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "この商品について質問がある",
+          "value": "ask"
+        },
+        {
+          "title": "探している商品がある",
+          "value": "find"
+        },
+        {
+          "title": "他の頼みがある",
+          "value": "other"
+        },
+        {
+          "title": "特に用はない",
+          "value": "quit"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "他に困っていることはある？",
+      "text$ja": "他に困っていることはある？",
+      "dropdownPlaceholder$ja": "Select...",
+      "choices$ja": [
+        {
+          "title": "この商品について質問がある",
+          "value": "ask"
+        },
+        {
+          "title": "探している商品がある",
+          "value": "find"
+        },
+        {
+          "title": "他の頼みがある",
+          "value": "other"
+        },
+        {
+          "title": "特に用はない",
+          "value": "quit"
+        }
+      ],
+      "markdown$ja": true,
+      "typing$ja": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T13:06:30.106Z",
+    "modifiedOn": "2021-11-08T13:12:53.424Z"
+  },
+  {
+    "id": "builtin_single-choice-lX2WmK",
+    "formData": {
+      "dropdownPlaceholder$ja": "Select...",
+      "choices$ja": [
+        {
+          "title": "価格は?",
+          "value": "price"
+        },
+        {
+          "title": "在庫ある?",
+          "value": "stock"
+        },
+        {
+          "title": "最初に戻る",
+          "value": "restart"
+        }
+      ],
+      "markdown$ja": true,
+      "disableFreeText$ja": false,
+      "typing$ja": true,
+      "text$ja": "以下の質問例からお選びいただくか、ご自由に入力してください！"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T13:58:25.788Z",
+    "modifiedOn": "2021-11-08T13:58:25.788Z"
+  },
+  {
+    "id": "builtin_single-choice-OLL4_q",
+    "formData": {
+      "dropdownPlaceholder$ja": "Select...",
+      "choices$ja": [
+        {
+          "title": "3万円以下のある?",
+          "value": "query1"
+        },
+        {
+          "title": "3万円以上かつ5万円未満で検索",
+          "value": "query2"
+        },
+        {
+          "title": "最初に戻る",
+          "value": "restart"
+        }
+      ],
+      "markdown$ja": true,
+      "disableFreeText$ja": false,
+      "typing$ja": true,
+      "text$ja": "以下の入力例からお選びいただくか、ご自由に入力してください！"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T14:05:58.191Z",
+    "modifiedOn": "2021-11-08T14:05:58.191Z"
+  },
+  {
+    "id": "builtin_single-choice-Dk-yfd",
+    "formData": {
+      "dropdownPlaceholder$ja": "Select...",
+      "choices$ja": [
+        {
+          "title": "最初に戻る",
+          "value": "restart"
+        }
+      ],
+      "markdown$ja": true,
+      "disableFreeText$ja": false,
+      "typing$ja": true,
+      "text$ja": "ご利用ありがとうございました"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T14:10:48.661Z",
+    "modifiedOn": "2021-11-08T14:10:48.661Z"
+  },
+  {
+    "id": "builtin_single-choice-wfwh0l",
+    "formData": {
+      "dropdownPlaceholder$ja": "Select...",
+      "choices$ja": [
+        {
+          "title": "最初に戻る",
+          "value": "restart"
+        }
+      ],
+      "markdown$ja": true,
+      "disableFreeText$ja": false,
+      "typing$ja": true,
+      "text$ja": "申し訳ございません。もう一度、別の言い方でおっしゃっっていただけますか！"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T14:12:37.348Z",
+    "modifiedOn": "2021-11-08T14:12:37.348Z"
+  },
+  {
+    "id": "builtin_single-choice-XrNRa-",
+    "formData": {
+      "dropdownPlaceholder$ja": "Select...",
+      "choices$ja": [
+        {
+          "title": "価格は?",
+          "value": "price"
+        },
+        {
+          "title": "在庫ある?",
+          "value": "stock"
+        },
+        {
+          "title": "最初に戻る",
+          "value": "restart"
+        }
+      ],
+      "markdown$ja": true,
+      "disableFreeText$ja": false,
+      "typing$ja": true,
+      "text$ja": "以下の質問例からお選びいただくか、ご自由に入力してください"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-08T14:20:09.403Z",
+    "modifiedOn": "2021-11-08T14:20:09.403Z"
+  },
+  {
+    "id": "builtin_single-choice-cAB-VG",
+    "formData": {
+      "dropdownPlaceholder$ja": "Select...",
+      "choices$ja": [
+        {
+          "title": "はい",
+          "value": "yes"
+        },
+        {
+          "title": "いいえ",
+          "value": "no"
+        }
+      ],
+      "markdown$ja": true,
+      "disableFreeText$ja": false,
+      "typing$ja": true,
+      "text$ja": "よろしければ、私から担当の者へお繋ぎしますか?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:03:02.051Z",
+    "modifiedOn": "2021-11-09T14:03:02.051Z"
+  },
+  {
+    "id": "builtin_single-choice-maED1n",
+    "formData": {
+      "dropdownPlaceholder$ja": "Select...",
+      "choices$ja": [
+        {
+          "title": "電話",
+          "value": "Phone"
+        },
+        {
+          "title": "メール",
+          "value": "email"
+        }
+      ],
+      "markdown$ja": true,
+      "disableFreeText$ja": false,
+      "typing$ja": true,
+      "text$ja": "どのような連絡方法を希望されてますか?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-11-09T14:05:12.574Z",
+    "modifiedOn": "2021-11-09T14:05:12.574Z"
+  }
+]
